@@ -1,0 +1,28 @@
+body {
+	font-family: Helvetica;
+	background-image: url('/images/pierogi.jpg');
+	background-size: cover;
+	text-align: center;
+	background-color: rgba(0,0,1,.1);
+/*	background: url("pierogi.jpg");
+	background-size: cover;*/
+}
+h1, p {
+	color: black;
+}
+
+#slogan {
+	font-weight: bold;
+	font-size: 18px;
+	font-style: italic;
+}
+
+.flavor {
+	font-weight: bold;
+}
+
+
+h1{
+	font-size: 50px;
+	color: rgba(0,100,50,.7);
+}

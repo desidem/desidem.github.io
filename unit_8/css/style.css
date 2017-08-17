@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Proza+Libre:400,700');
+
+body {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 24px;
+	line-height: 1.2em;
+	margin: 2em;
+	background-image: url('/images/pierogi.jpg');
+	background-size: cover;
+	text-align: center;
+	background-color: rgba(0,0,1,.1);
+/*	background: url("pierogi.jpg");
+	background-size: cover;*/
+}
+h1, p {
+	color: black;
+}
+
+
+h1{
+	font-family:  'Proza Libre', sans-serif;
+	font-size: 50 px;
+	font-weight: bold;
+	color: rgba(0,100,50,.7);
+}
+
+#slogan {
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 28px;
+	font-style: italic;
+}
+
+.flavor {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+div{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	width: 100%;
+	padding: 1%;
+}
+
+header{
+	background-color: white;
+	border: 1px black solid;
+	width: 96%;
+	padding: 2%;
+}
+
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	width: 98%;
+	padding: 1%;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+	height: 50%;
+	width: 50%;
+}
+
+section{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	width: 96%;
+	padding: 2%;
+}
+
+#two-column{
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	width: 96%;
+	padding: 2%;
+}
+
+#left{
+	background-color: white;
+	border: 1px black solid;
+	padding: 2%;
+	float: left;
+	width: 45%;
+}
+
+#right{
+	background-color: white;
+	border: 1px black solid;
+	padding: 2%;
+	float: right;
+	width: 45%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	width: 96%;
+	padding: 2%;
+}
+
+@media only screen and (max-width: 873px) {
+	#left{
+		float: none;
+		width: 96%;
+	}
+	#right{
+		float: none;
+		width: 96%;
+	}
+}	
+
+@media only screen and (max-width: 483px) {
+	body{
+		font-size: .8em;
+	}
+	h1{
+		font-size: 1.75em;
+	}
+	#slogan{
+		font-size: 1.1em;
+	}
+	.flavor{
+		font-size: 1.1em;
+		font-weight: bold;
+	}
+}
+
+
+
